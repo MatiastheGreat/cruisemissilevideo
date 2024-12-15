@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruise Missile Video</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body, html {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0; 
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: auto; 
+            height: 80%; 
+            border: 1px solid #ccc; 
+            background-color: #000; 
+        }
+        video {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <video controls>
+            <source src="cruisemissilevideo.mp4" type="video/mp4">
+            Browser doesnt support video tag.
+        </video>
+    </div>
+</body>
+</html>
